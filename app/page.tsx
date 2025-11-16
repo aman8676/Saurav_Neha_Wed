@@ -127,7 +127,7 @@ export default function Home() {
               letterSpacing: "0.5px",
             }}
           >
-            Made with <span className="text-pink-500">💖</span> by{" "}
+            Made with <span className="text-pink-500">💖</span>{" "}
             <span
               style={{
                 color: "#e76f51",
@@ -135,7 +135,6 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255,182,193,0.5)",
               }}
             >
-              Aman
             </span>
           </p>
         </motion.div>
