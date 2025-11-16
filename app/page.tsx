@@ -117,19 +117,6 @@ export default function Home() {
           </motion.h4>
 
           {/* 💐 Family Mention */}
-          <p
-            className="text-md mb-8"
-            style={{
-              fontFamily: "'Poppins', sans-serif",
-              color: "#555",
-            }}
-          >
-            With love & regards,
-            <br />
-            <span style={{ color: "#e76f51", fontWeight: 600 }}>
-              Jalan & Goyal Family 💐
-            </span>
-          </p>
 
           {/* ❤️ Made by Aman */}
           <p
