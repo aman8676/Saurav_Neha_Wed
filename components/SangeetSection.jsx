@@ -23,7 +23,7 @@ export default function SangeetSection() {
           </h2>
 
           <p className="text-lg md:text-2xl text-[#6b2a2a] mt-1 mb-8 font-medium">
-            Saturday,{" "}
+            Sunday,{" "}
             <strong className="text-[#7A0038]">23 November 2025</strong>
           </p>
 
