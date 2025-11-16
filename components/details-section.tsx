@@ -93,7 +93,7 @@ export default function DetailsSection() {
                     Location
                   </p>
                   <p className="text-2xl font-serif text-primary">
-                    Utsav Upvan Resort
+                    Mangal Upvan (Utsav Upvan) Resort
                   </p>
                   <p className="text-foreground/50">Giridih</p>
                 </div>
@@ -130,7 +130,7 @@ export default function DetailsSection() {
                 special.” 🌸
               </motion.p>
 
-              {/* RSVP Button + Family */}
+              
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}

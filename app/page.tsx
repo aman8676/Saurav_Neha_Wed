@@ -24,6 +24,7 @@ import InvitationSection from "@/components/invitation_section";
 // import Navigation from "@/components/navigation"
 import Sparkles from "@/components/sparkles"
 import DetailsSection from "@/components/details-section"
+import SangeetSection from "@/components/SangeetSection"
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -50,6 +51,7 @@ export default function Home() {
       <CountdownTimer weddingDate="2025-11-24T00:00:00" />
       <PhotoGallery />
       <InvitationSection />
+      <SangeetSection />
       <DetailsSection />
 
       {/* Footer */}

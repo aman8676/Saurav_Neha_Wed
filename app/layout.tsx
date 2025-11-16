@@ -13,23 +13,23 @@ const _poiret = Poiret_One({ subsets: ["latin"], weight: ["400"] })
 export const metadata: Metadata = {
   title: "Sourabh & Neha Wedding - November 24, 2025",
   description: "Celebrate the union of two hearts - A beautiful wedding website with countdown and memories",
-  generator: "v0.app",
+  generator: "",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/hand_knot2-32x32.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/hand_knot2-32x32.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: "/hand_knot2",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/hand_knot2.png",
   },
 }
 
