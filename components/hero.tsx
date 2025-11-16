@@ -150,6 +150,9 @@ export default function Hero() {
           <span className="text-[#e78b6f] text-3xl md:text-4xl font-serif">
             November 24, 2025
           </span>
+          <p className="text-xl md:text-2xl font-poiret text-gray-700 font-semibold tracking-wide mb-8 leading-relaxed mt-4">
+            Tap to unmute 🎶
+          </p>
         </motion.p>
       </div>
 
