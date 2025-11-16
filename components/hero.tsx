@@ -94,7 +94,7 @@ export default function Hero() {
       </audio>
 
       {/* 🌸 Floral Decorations */}
-      <motion.img
+      {/* <motion.img
         src="/flower_top_left.png"
         alt=""
         className="absolute top-4 left-4 w-36 opacity-90 animate-float-slow"
@@ -109,7 +109,7 @@ export default function Hero() {
         initial={{ rotate: 5, opacity: 0 }}
         animate={{ rotate: 0, opacity: 1 }}
         transition={{ duration: 2 }}
-      />
+      /> */}
 
       {/* 💞 Main Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">

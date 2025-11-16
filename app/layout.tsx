@@ -17,19 +17,10 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/hand_knot2-32x32.png",
-        media: "(prefers-color-scheme: light)",
+        url: "/hand_knot2.png",
+        type: "image/png",
       },
-      {
-        url: "/hand_knot2-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/hand_knot2",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/hand_knot2.png",
+  ]
   },
 }
 
