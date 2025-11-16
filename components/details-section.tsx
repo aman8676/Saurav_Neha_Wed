@@ -98,21 +98,19 @@ export default function DetailsSection() {
                   <p className="text-foreground/50">Giridih</p>
                 </div>
 
-                 <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 1, delay: 0.2 }}
-                className="text-center text-lg italic mb-6"
-                style={{
-                  fontFamily: "'Dancing Script', cursive",
-                  color: "#b94b61",
-                }}
-              >
-                "Join us for an unforgettable evening celebrating love,
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 1, delay: 0.2 }}
+                  className="text-center text-lg italic mb-6"
+                  style={{
+                    fontFamily: "'Dancing Script', cursive",
+                    color: "#b94b61",
+                  }}
+                >
+                  "Join us for an unforgettable evening celebrating love,
                   laughter, and new beginnings"
-
-              </motion.p>
-                
+                </motion.p>
               </motion.div>
 
               {/* 💞 Elegant RSVP Message Above */}
@@ -130,7 +128,6 @@ export default function DetailsSection() {
                 special.” 🌸
               </motion.p>
 
-              
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
@@ -153,13 +150,12 @@ export default function DetailsSection() {
                     color: "#555",
                   }}
                 >
-                  With love & regards,{" "}
+                  With love & regards,
+                  <br />
                   <span style={{ color: "#e76f51", fontWeight: 600 }}>
                     Jalan & Goyal Family 💐
                   </span>
                 </p>
-
-               
               </motion.div>
             </div>
           </div>
