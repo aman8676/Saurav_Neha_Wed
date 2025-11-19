@@ -81,7 +81,10 @@ export default function Hero() {
           loop
           autoPlay
         >
-          <source src="/bg_video.mp4" type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/dleljx98b/video/upload/v1763501251/bg_video_ek87w7.mp4"
+            type="video/mp4"
+          />
         </video>
 
         {/* Overlay */}
@@ -90,7 +93,10 @@ export default function Hero() {
 
       {/* 🎵 Background Music */}
       <audio ref={audioRef} playsInline loop>
-        <source src="/bg_song.mp3" type="audio/mpeg" />
+        <source
+          src="https://res.cloudinary.com/dleljx98b/video/upload/v1763501247/bg_song_xohc67.mp3"
+          type="audio/mpeg"
+        />
       </audio>
 
       {/* 🌸 Floral Decorations */}

@@ -25,6 +25,8 @@ import InvitationSection from "@/components/invitation_section";
 import Sparkles from "@/components/sparkles"
 import DetailsSection from "@/components/details-section"
 import SangeetSection from "@/components/SangeetSection"
+import { FloatingDock } from "@/components/ui/floating-dock"
+import { FloatingDockDemo } from "@/components/BottomNav"
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -44,6 +46,7 @@ export default function Home() {
           radial-gradient(circle at 70% 30%, rgba(255, 182, 193, 0.4), transparent 60%)`,
         }}
       />
+      {/* <FloatingDockDemo/> */}
       {/* Your Content/Components */}
       <Sparkles />
       {/* <Navigation /> */}

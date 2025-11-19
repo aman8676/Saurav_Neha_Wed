@@ -209,7 +209,10 @@ const Invitation: React.FC = () => {
               objectFit: "contain",
             }}
           >
-            <source src="/invitation.mp4" type="video/mp4" />
+            <source
+              src="https://res.cloudinary.com/dleljx98b/video/upload/v1763501253/invitation_kn6o3s.mp4"
+              type="video/mp4"
+            />
             Your browser does not support the video tag.
           </video>
 

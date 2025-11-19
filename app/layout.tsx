@@ -4,6 +4,7 @@ import { Geist, Geist_Mono, Poiret_One } from "next/font/google"
 import { Great_Vibes } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
+import { FloatingDockDemo } from "@/components/BottomNav"
 
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
@@ -32,7 +33,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans antialiased`}>
+        <FloatingDockDemo/>
         {children}
+        {/* <BottomNav /> */}
         <Analytics />
       </body>
     </html>

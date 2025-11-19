@@ -7,17 +7,33 @@ export default function PhotoGallery() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
   const photos = [
-    { src: "/photo_1.jpg", alt: "Sourabh and Neha", title: "Perfect Moments" },
-    { src: "/photo_2.jpg", alt: "Happy Couple", title: "Love bloom" },
-    { src: "/photo_3.jpg", alt: "Happy Times", title: "Happiness" },
-    { src: "/photo_4.jpg", alt: "Celebration", title: "Celebration" },
     {
-      src: "/photo_5.jpg",
+      src: "https://res.cloudinary.com/dleljx98b/image/upload/v1763501254/photo_1_dmlvql.png",
+      alt: "Sourabh and Neha",
+      title: "Perfect Moments",
+    },
+    {
+      src: "https://res.cloudinary.com/dleljx98b/image/upload/v1763501256/photo_2_t594lc.jpg",
+      alt: "Happy Couple",
+      title: "Love bloom",
+    },
+    {
+      src: "https://res.cloudinary.com/dleljx98b/image/upload/v1763501256/photo_2_t594lc.jpg",
+      alt: "Happy Times",
+      title: "Happiness",
+    },
+    {
+      src: "https://res.cloudinary.com/dleljx98b/image/upload/v1763501259/photo_4_bxnbu3.jpg",
+      alt: "Celebration",
+      title: "Celebration",
+    },
+    {
+      src: "https://res.cloudinary.com/dleljx98b/image/upload/v1763501261/photo_5_qkxfte.jpg",
       alt: "Dance Moment",
       title: "soulmates",
     },
     {
-      src: "/photo_6.jpg",
+      src: "https://res.cloudinary.com/dleljx98b/image/upload/v1763501263/photo_6_pctl3m.jpg",
       alt: "Memories",
       title: "Forever Memories",
     },
